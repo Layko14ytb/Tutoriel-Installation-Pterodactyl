@@ -27,6 +27,10 @@
 
 Générateur de mot de passe: https://www.dashlane.com/personal-password-manager/password-generator
 
+# Configuration du node
+
+`sudo nano /etc/pterodactyl/config.yml`
+
 # Informations:
 Lien de la vidéo explicative: https://youtu.be/DuR_4YGXmRw
 
