@@ -19,7 +19,11 @@
 `service mysql restart`
 `mysql`
 
-`CREATE DATABASE phpmyadmin DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci; GRANT ALL ON phpmyadmin.* TO 'phpmyadmin'@'localhost' IDENTIFIED BY 'MOTDEPASSE'; create user admin@'%' identified by 'MOTDEPASSE'; grant all privileges on *.* to admin@'%' with grant option; flush privileges;`
+`CREATE DATABASE phpmyadmin DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;`
+`GRANT ALL ON phpmyadmin.* TO 'phpmyadmin'@'localhost' IDENTIFIED BY 'MOTDEPASSE';`
+`create user admin@'%' identified by 'MOTDEPASSE';`
+`grant all privileges on *.* to admin@'%' with grant option;`
+`flush privileges;`
 
 Générateur de mot de passe: https://www.dashlane.com/personal-password-manager/password-generator
 
