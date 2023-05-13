@@ -1,6 +1,6 @@
 # 💻 Tutoriel-Installation-Pterodactyl
 
-# Installation des prérequis 
+# Installation des Prérequis 
 
 `apt update`
 `apt full-upgrade`
@@ -27,7 +27,7 @@
 
 Générateur de mot de passe: https://www.dashlane.com/personal-password-manager/password-generator
 
-# Configuration du node
+# Configuration du Node
 
 `sudo nano /etc/pterodactyl/config.yml`
 
